@@ -5,7 +5,6 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Hello World!</Text>
-      <Text></Text>
       <StatusBar style="auto" />
       <Image source={require('./assets/doge.png')} style={styles.image} />
     </View>
