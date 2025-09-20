@@ -5,7 +5,6 @@ import {
   TouchableOpacity,
   View,
   TextInput,
-  ScrollView,
 } from "react-native";
 
 export default function App() {
@@ -70,10 +69,7 @@ export default function App() {
               </Text>
             </TouchableOpacity>
             <Text
-              style={[
-                styles.itemText,
-                item.completed && styles.completedText,
-              ]}
+              style={[styles.itemText, item.completed && styles.completedText]}
             >
               {item.text} <Text style={styles.dateText}>({item.date})</Text>
             </Text>
