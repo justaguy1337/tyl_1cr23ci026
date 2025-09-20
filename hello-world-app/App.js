@@ -1,8 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Image } from 'react-native';
 
-// view component is similar to div component in html. non scrollable
-
 export default function App() {
   return (
     <View style={styles.container}>
